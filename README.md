@@ -1,6 +1,6 @@
 # 🏆 E-sporta turnīru pārvaldības sistēma
 
-Šī ir Laravel veidota tīmekļa lietotne e-sporta turnīru organizēšanai un pārvaldīšanai. Lietotāji var izveidot turnīrus, pievienot spēles, reģistrēt rezultātus un pārvaldīt dalībniekus. Projekts radīts kā mācību darbs.
+Šī ir Laravel veidota tīmekļa lietotne e-sporta turnīru organizēšanai un pārvaldīšanai. Lietotāji var izveidot turnīrus, pievienot spēles, reģistrēt rezultātus un pārvaldīt dalībniekus. 
 
 ---
 
