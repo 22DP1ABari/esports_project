@@ -105,3 +105,57 @@ Lietotājs iegūst jaunās tiesības un var veikt atbilstošas darbības.
 
 **Sagaidāmais rezultāts: (apstiprināts)**  
 Sistēma pielāgojas mobilajam skatam.  
+
+---
+
+## 11. Darbinieka ID validācija
+**Soļi:**
+1. Pievienot darbinieku un ievadīt nekorektu ID formātu (piemēram, @!2)
+2. Pārbaudīt.
+
+**Sagaidāmais rezultāts:**  
+Parādās kļūda par nepareizu formātu.
+
+**Reālais rezultāts:**
+Sistēma ļauj ievadīt ID, kas neatbilst formātam.
+
+---
+
+## 12. Atvaļinājumu saraksts
+**Soļi:**
+1. Pievienot jaunu atvaļinājumu darbiniekam.
+2. Meklēt atvaļinājumus sadaļā "Leave List" par atbilstošu periodu.
+
+**Sagaidāmais rezultāts:**  
+Sarakstā parādas atbilstošs atvaļinājums.
+
+**Reālais rezultāts:**
+No Records Found
+
+---
+
+## 13. Meklēšana sadaļā "Recruitment"
+**Soļi:**
+1. Sadaļā Recruitment  → Candidates ievadīt vārda daļu (piemēram, John)
+2. Pārbaudīt darbinieku sarakstu.
+
+**Sagaidāmais rezultāts:** 
+Sarakstā ir visi darbinieki, kam sakrīt vārds.
+
+**Reālais rezultāts:**
+Strādā tikai ar vienu konkrētu darbinieku, nav saraksta.
+
+---
+
+## 14. Reviews
+**Soļi:**
+1. Sadaļā "Dashboard" → My Actions radās, ka ir 1 Pending Self Review.
+2. Pārbaudīt sarakstu.
+
+**Sagaidāmais rezultāts:** 
+Radās tas 1 Pending Self Review.
+
+**Reālais rezultāts:**
+Saraksts ir tukšs, No Records Found.
+   
+   
